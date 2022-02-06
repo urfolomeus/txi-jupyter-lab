@@ -4,11 +4,19 @@ A JupyterLab instance that contains some learning resources for Python and relat
 
 ## Running locally
 
+### With Docker
+
 ```
 docker compose up
 ```
 
 This will present you with a pair of URLs to get access to the Jupyter Lab. I've found that only the `127.0.0.1` version works for me.
+
+### With VS Code
+
+1. Ensure that you have the version of Python installed from the [.python-version](./.python-version) file
+2. Open the desired notebook file in VS Code
+3. When you first try to run a code block you will be prompted to install some things that VS Code needs to run the notebook
 
 ## What's in this lab?
 
